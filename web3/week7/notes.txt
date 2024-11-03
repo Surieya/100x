@@ -1,0 +1,30 @@
+SYSTEM PROGRAM -> new account creation 
+                  space allocation
+                  assign ownership
+
+using solana/web3.js we can intract with the system program to 
+    => create a new acc
+    => transfer lamports from your account to another
+    => allocate space for the new account
+    => assign ownership to the new account
+
+
+BPF Loader Program => 
+The BPF Loader is the program designated as the "owner" of all other programs on the network, excluding Native Programs. It is responsible for deploying, upgrading, and executing custom programs.
+
+
+
+
+
+authority vs ownership
+
+AUTHORITY
+In Solana programs, authorities are entities or accounts that have the right to perform certain actions or make changes within the program.
+For example
+
+- Token mint authority - Can mint new tokens
+- Token freeze authority - Can freeze tokens in an account 
+- Upgrade authority - Can `upgrade` the code of a program.
+
+OWNERSHIP
+
